@@ -1,0 +1,222 @@
+/*  font-family: 'Lobster', sans-serif;
+    font-family: 'Orbitron', sans-serif; */
+
+body {
+    background-image: radial-gradient(#131313, #262725);
+}
+
+h1 {
+    color: #EEE5E5;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: #EEE5E5;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #EEE5E5;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+}
+
+h4 {
+    color: #EEE5E5;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+p {
+    color: #EEE5E5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    margin: 5px;
+    
+}
+
+.column {
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.aboutuscontainer {
+    padding: 5px;
+    border: 3px solid #262725;
+    background-color: #131313;
+}
+
+.location {
+    margin: 5px;
+    padding: 10px;
+}
+
+.locationimage {
+    max-width: 95%;
+    width: auto;
+    margin: 5px;
+    border: 1px solid #DDCECD;
+}
+
+.locationcontainer {
+    padding: 5px;
+    border: 3px solid #262725;
+    background-color: #131313;
+}
+
+.review {
+    border: 5px double #262725;
+    margin: 5px;
+    background-image: linear-gradient(#39A9DB, #131313);
+}
+
+.reviewcontainer {
+    padding: 5px;
+    border: 3px solid #262725;
+    background-color: #131313;
+}
+
+.drinkcontainer {
+    padding: 5px;
+    border: 3px solid #262725;
+    background-color: #131313;
+}
+
+.drink {
+    border: 2px solid #262725;
+    margin: 2px;
+    background-image: linear-gradient(#39A9DB, #131313);
+}
+
+.drinkimage {
+    margin: 1px;
+    max-width: 50%;
+    width: auto;
+    border: 1px solid #DDCECD;
+}
+
+.pastrycontainer {
+    padding: 2px;
+    border: 3px solid #262725;
+    background-color: #131313;
+}
+
+.pastry {
+    border: 2px solid #262725;
+    margin: 2px;
+    background-image: linear-gradient(#39A9DB, #131313);
+}
+
+.pastryimage {
+    margin: 1px;
+    max-width: 50%;
+    width: auto;
+    border: 1px solid #DDCECD;
+}
+
+#coffeebar {
+    max-width: 50%;
+    width: auto;
+    margin: auto;
+    display: block;
+    border: 1px solid #DDCECD;
+}
+
+#title {
+    font-family: 'Lobster', sans-serif;
+    font-size: 25;
+    text-decoration: none;
+    
+}
+
+.navbar {
+    background-image: linear-gradient(to top, #40BCD8, #262725);
+    border: 1px solid #DDCECD;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar a{
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    color: #EEE5E5;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+.footer {
+    background-image: linear-gradient(to bottom, #40BCD8, #262725);
+    border: 1px solid #DDCECD;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.footer a{
+    font-size: 20;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    color: #EEE5E5;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: red;
+}
+
+table, th, td {
+    border: 2px solid #262725;
+    color: #DDCECD;
+    border-collapse: collapse;
+}
+
+td {
+    width: auto;
+    height: 30px;
+    background-color: #131313;
+}
+
+th {
+    width: 300px;
+    height: 40px;
+    background-image: linear-gradient(to top, #262725, #40BCD8);
+}
+
+table {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabletext {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
