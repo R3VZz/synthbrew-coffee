@@ -110,6 +110,8 @@ p {
     max-width: 50%;
     width: auto;
     border: 1px solid #DDCECD;
+    display: flex;
+    justify-content: center;
 }
 
 .pastrycontainer {
@@ -201,9 +203,15 @@ td {
     width: auto;
     height: 30px;
     background-color: #131313;
+    font-size: large;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Orbitron', sans-serif;
 }
 
 th {
+    font-size: larger;
+    font-family: 'Orbitron', sans-serif;
     width: 300px;
     height: 40px;
     background-image: linear-gradient(to top, #262725, #40BCD8);
@@ -215,8 +223,8 @@ table {
     justify-content: center;
 }
 
-.tabletext {
+.smallprint {
     display: flex;
-    justify-content: center;
-    font-size: larger;
+    justify-content: end;
+    font-size: small;
 }
