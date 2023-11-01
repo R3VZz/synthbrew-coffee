@@ -110,8 +110,6 @@ p {
     max-width: 50%;
     width: auto;
     border: 1px solid #DDCECD;
-    display: flex;
-    justify-content: center;
 }
 
 .pastrycontainer {
@@ -224,7 +222,28 @@ table {
 }
 
 .smallprint {
+    text-align: center;
     display: flex;
     justify-content: end;
     font-size: small;
+}
+
+.contactcontainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin: 5px;
+    color: #131313;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #40BCD8, #DDCECD);
+    border: 2px solid #131313;
+}
+
+input {
+    border: 2px solid #131313;
+    display: flex;
+    justify-content: center;
 }
