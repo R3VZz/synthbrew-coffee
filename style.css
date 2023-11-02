@@ -101,6 +101,7 @@ p {
     padding: 5px;
     border: 3px solid #262725;
     background-color: #131313;
+    text-align: center;
 }
 
 .drink {
@@ -120,6 +121,7 @@ p {
     padding: 2px;
     border: 3px solid #262725;
     background-color: #131313;
+    text-align: center;
 }
 
 .pastry {
