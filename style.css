@@ -1,5 +1,7 @@
 /*  font-family: 'Lobster', sans-serif;
     font-family: 'Orbitron', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Orbitron&display=swap');
 
 body {
     background-image: radial-gradient(#131313, #262725);
